@@ -25,6 +25,10 @@ Python 3, scikit-learn, pandas, numpy, scipy, matplotlib. Long runs are checkpoi
 | `b8_weighted.py` | population-weighted fitting / evaluation | S13 |
 | `b10_reduced.py` | set A without the three state-level inputs (24 predictors) | Table 1, S3 |
 | `c1_summary.py`, `c2_moran.py`, `c3_more.py`, `e1_tables.py` | summaries, confidence intervals, block bootstrap, table contents | Tables, S5, S14 |
+| `b11_blocksize.py` | sensitivity to block size (5, 10, 20 blocks) | Fig. S3 |
+| `b12_purenoise.py` | pure-noise smoothing scenario | Table S12b |
+| `b13_importance.py` | permutation importance on held-out blocks, sets A and B | Table S6, Fig. S6 |
+| `b14_foldwise.py` | fold-wise versus pooled R² | Fig. S5 |
 | `d1_figs.py` | Figures 2–4 and Supplementary Figures S1, S2 and S4 (600 dpi; file names follow the Supplementary Information numbering) | figures |
 
 ## Data added in revision (`veri/`)
@@ -40,7 +44,7 @@ Python 3, scikit-learn, pandas, numpy, scipy, matplotlib. Long runs are checkpoi
   are hard-coded in `kod/revision/prep_wonder.py`, which builds both files above from the raw exports: 35–44: 27.42; 45–54: 80.60; 55–64: 200.66; 65–74: 405.54;
   75–84: 1015.50; 85+: 3875.94 per 100,000 (means of the annual values).
 
-Supplementary Figures S3, S5 and S6 and Supplementary Tables S6 and S12b come from the main script (`kalp_ve_loc.py`), as does the audit table `cizelge0_sizinti_denetimi`.
+All tables and figures of the revised manuscript and Supplementary Information, except Figure 1 (outcome map), are produced by the scripts above. The main script (`kalp_ve_loc.py`) builds the county analysis table and writes the audit table `cizelge0_sizinti_denetimi`.
 
 `sonuclar/revision/` holds all checkpoint files, out-of-fold predictions of the first repetition, table contents and figures.
 

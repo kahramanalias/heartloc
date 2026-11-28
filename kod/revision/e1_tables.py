@@ -8,7 +8,9 @@ def ci(x,p=3,sign=True):
     key=(tuple(np.round(x,10)),p,sign)
     if key in _MEMO: return _MEMO[key]                                  # aynı veri -> aynı aralık (Tablo 2 = Tablo 4)
     l,u=np.percentile(bs,[2.5,97.5])
-    f=(lambda v:f"{v:+.{p}f}") if sign else (lambda v:f"{v:.{p}f}")
+    def f(v, q=p):
+        s=f"{v:+.{q}f}" if sign else f"{v:.{q}f}"
+        return f(v, q+1) if float(s)==0 and v!=0 and q<p+2 else s   # e.g. -0.0004 instead of -0.000
     out=f"{f(x.mean())} ({f(l)} to {f(u)})"; _MEMO[key]=out; return out
 def m(x,p=3): return f"{np.mean(x):.{p}f}"
 T={}
