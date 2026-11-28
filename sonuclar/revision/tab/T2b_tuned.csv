@@ -1,0 +1,4 @@
+Baseline,tuned_Random,inc_tuned_Random,oracle_Random,inc_oracle_Random,tuned_Spatial,inc_tuned_Spatial,oracle_Spatial,inc_oracle_Spatial,tuned_State,inc_tuned_State,oracle_State,inc_oracle_State
+k-nearest neighbours (tuned),0.642,-0.003,0.642,-0.003,0.302,+0.214,0.312,+0.204,0.261,+0.220,0.267,+0.214
+Gaussian process (tuned),0.649,-0.010,0.649,-0.010,0.298,+0.218,0.316,+0.200,0.312,+0.169,0.337,+0.144
+Thin-plate spline (tuned),0.623,+0.016,0.623,+0.016,0.311,+0.205,0.346,+0.170,0.275,+0.206,0.338,+0.143

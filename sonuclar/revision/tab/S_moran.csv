@@ -1,0 +1,14 @@
+Series,Validation,I,p
+Raw outcome,—,0.636898358773354,0.001
+Gradient boosting residuals,Random,0.1818267476047432,0.001
+Random forest residuals,Random,0.24439942909679335,0.001
+Ridge residuals,Random,0.37466927557027807,0.001
+Coordinates only residuals,Random,0.021574949901351743,0.018
+Gradient boosting residuals,Spatial,0.31998108414263354,0.001
+Random forest residuals,Spatial,0.3743493400407302,0.001
+Ridge residuals,Spatial,0.4385104828490394,0.001
+Coordinates only residuals,Spatial,0.4285657526068365,0.001
+Gradient boosting residuals,State,0.39563777977772663,0.001
+Random forest residuals,State,0.4127164418814072,0.001
+Ridge residuals,State,0.4269449923994173,0.001
+Coordinates only residuals,State,0.4623511183207047,0.001

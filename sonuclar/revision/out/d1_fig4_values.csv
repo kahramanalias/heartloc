@@ -1,0 +1,37 @@
+panel,model,band,MAE_spatial,MAE_random,n
+"Distance to nearest training county
+under spatial blocking (km)",Gradient boosting,0–25,38.10663196395553,39.67336342097429,34
+"Distance to nearest training county
+under spatial blocking (km)",Gradient boosting,25–50,40.656900470201364,37.127271027801456,421
+"Distance to nearest training county
+under spatial blocking (km)",Gradient boosting,50–100,46.21041140751162,41.86600485264832,691
+"Distance to nearest training county
+under spatial blocking (km)",Gradient boosting,100–200,49.63351180668857,43.29067691695571,1133
+"Distance to nearest training county
+under spatial blocking (km)",Gradient boosting,200–400,50.31538190635735,42.303318245707544,545
+"Distance to nearest training county
+under spatial blocking (km)",Gradient boosting,>400,53.28633425043556,40.110876023439076,275
+"Distance to nearest training county
+under spatial blocking (km)",Coordinates only,0–25,48.480547910871785,39.04868860330842,34
+"Distance to nearest training county
+under spatial blocking (km)",Coordinates only,25–50,48.71373350069117,41.47358447505455,421
+"Distance to nearest training county
+under spatial blocking (km)",Coordinates only,50–100,56.198487260609284,44.40510915574876,691
+"Distance to nearest training county
+under spatial blocking (km)",Coordinates only,100–200,60.95175733267542,45.63867177062033,1133
+"Distance to nearest training county
+under spatial blocking (km)",Coordinates only,200–400,65.61932777082498,39.79126386908836,545
+"Distance to nearest training county
+under spatial blocking (km)",Coordinates only,>400,63.008427425571746,40.728504051197746,275
+Dissimilarity index (sextile),Gradient boosting,Q1,43.29138222714252,38.62152950851902,517
+Dissimilarity index (sextile),Gradient boosting,Q2,46.03912212212184,40.85049200052975,516
+Dissimilarity index (sextile),Gradient boosting,Q3,44.33613651585482,42.99805216856891,516
+Dissimilarity index (sextile),Gradient boosting,Q4,46.19092098463036,41.28769117448253,517
+Dissimilarity index (sextile),Gradient boosting,Q5,48.71578347303596,39.80480541441254,516
+Dissimilarity index (sextile),Gradient boosting,Q6,59.227544124493974,46.27625847439287,517
+Dissimilarity index (sextile),Coordinates only,Q1,47.60256498346172,38.05801528133082,517
+Dissimilarity index (sextile),Coordinates only,Q2,53.20054301155347,41.55259280352902,516
+Dissimilarity index (sextile),Coordinates only,Q3,57.2764485974653,46.02061449425447,516
+Dissimilarity index (sextile),Coordinates only,Q4,62.45675736301364,43.811650487901304,517
+Dissimilarity index (sextile),Coordinates only,Q5,61.44973232611821,42.58901146383055,516
+Dissimilarity index (sextile),Coordinates only,Q6,72.57893261360987,47.53739914563319,517
